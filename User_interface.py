@@ -13,7 +13,7 @@ iface = gr.Interface(fn=display_image_with_prompt,
                      inputs=inputs, 
                      outputs=outputs, 
                      title="Display Image with Prompt",
-                     description="Enter a prompt and see the image 'usama_pic.jpeg'.")
+                     description="Enter a prompt and see the image 'switch.jpeg'.")
 
 # Launch the interface
 iface.launch()
