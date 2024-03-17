@@ -3,7 +3,7 @@ from torch import nn, optim
 from torch.utils.data import DataLoader, Dataset
 from torchvision import transforms
 from transformers import BertTokenizer, BertModel
-import torch.nn as nn  # This import is redundant, already imported from torch
+import torch.nn as nn 
 from PIL import Image
 import os
 import glob
